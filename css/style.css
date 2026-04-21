@@ -54,9 +54,10 @@ h2 {
 img {
     margin: .5em 1em;
     /* border: 1px solid #ccc; */
-    border-radius: 50%;
+    border-radius: 0;
+    width: 150px;
     height: 150px;
-    max-width: 100%;
+    
     object-fit: cover;
     /* Resizes the image to cover the entire container */
 }
