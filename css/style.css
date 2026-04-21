@@ -204,6 +204,18 @@ img {
     color: inherit;
 }
 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.social-icons a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
 /* Media queries allow you to change style properties according to the screen width. In this case, if the screen is AT LEAST 540 pixels wide (bigger than a standard phone), the .container resizes to 540 pixels and the buttons and intro resize to 85% of the container width */
 @media (min-width: 540px) {
     .container {
